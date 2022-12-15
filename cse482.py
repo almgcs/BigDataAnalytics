@@ -431,7 +431,7 @@ with col4:
 
 #-----News Articles--------------------------------------------------------------------------------------
 
-st.markdown("Top Google Search News Results for 10 Nov - 10 Dec 2022")
+st.markdown("Top Google Search News Results on Abortion for 10 Nov - 10 Dec 2022")
 st.dataframe(news[['title','author','published_date','link']])
 
     
