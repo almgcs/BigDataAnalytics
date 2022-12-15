@@ -1,0 +1,14 @@
+altair==4.2.0
+matplotlib==3.3.4
+numpy==1.22.4
+pandas==1.4.4
+Pillow==9.3.0
+plotly==5.10.0
+pydeck==0.8.0b3
+requests==2.28.1
+scikit_learn==1.2.0
+scipy==1.7.1
+seaborn==0.11.1
+statsmodels==0.13.2
+streamlit==1.12.2
+wordcloud==1.8.2.2
