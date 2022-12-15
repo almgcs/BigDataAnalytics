@@ -87,9 +87,8 @@ region_dictionary ={
 # Add a new column named 'Region'
 final_data['Region'] = final_data['State'].map(region_dictionary)
 
-
-
-news = pd.read_csv('//Users/almgacis/Documents/MSU/CSE_482/Project/news.csv')
+news = pd.read_csv('news.csv')
+#news = pd.read_csv('//Users/almgacis/Documents/MSU/CSE_482/Project/news.csv')
 
 st.markdown(""" <style> .font {
 font-size:48px ; font-family: 'Cooper Black'} 
