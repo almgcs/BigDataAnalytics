@@ -24,8 +24,8 @@ import requests
 
 st.set_page_config(layout="wide")
 
-#final_data = pd.read_csv('final_data.csv', index_col=0)
-final_data = pd.read_csv('/Users/almgacis/Documents/MSU/CSE_482/Project/manually_tagged_data/final_data.csv', index_col=0)
+final_data = pd.read_csv('final_data.csv', index_col=0)
+#final_data = pd.read_csv('/Users/almgacis/Documents/MSU/CSE_482/Project/manually_tagged_data/final_data.csv', index_col=0)
 final_data = final_data[final_data['State'] != 'TRASH']
 region_dictionary ={
 # Mid West
