@@ -69,8 +69,8 @@ region_dictionary ={
 'NM':'SW',
 'OK':'SW',
 'TX':'SW',
-'VA':'SW',
-'WV':'SW',
+'VA':'SE',
+'WV':'SE',
 # West
 'AK':'W',
 'CA':'W',
