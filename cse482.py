@@ -15,24 +15,6 @@ from pandas.api.types import (
 )
 from scipy.stats import zscore
 from sklearn import datasets
-from sklearn.preprocessing import StandardScaler
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.preprocessing import OneHotEncoder
-from sklearn.decomposition import PCA
-from sklearn.model_selection import KFold
-from sklearn.model_selection import cross_val_score
-from sklearn.model_selection import train_test_split
-from sklearn import metrics
-from sklearn.metrics import plot_confusion_matrix, confusion_matrix, plot_roc_curve, precision_recall_curve, PrecisionRecallDisplay, ConfusionMatrixDisplay
-from sklearn.metrics import accuracy_score, precision_score, recall_score
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.neural_network import MLPClassifier
-from sklearn.datasets import make_classification
-from sklearn.model_selection import GridSearchCV
-from sklearn.model_selection import RandomizedSearchCV
 from wordcloud import WordCloud, ImageColorGenerator
 import plotly.graph_objs as go
 import datetime as dt
